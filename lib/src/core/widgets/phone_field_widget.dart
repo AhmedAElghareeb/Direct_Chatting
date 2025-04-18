@@ -41,8 +41,8 @@ class PhoneFieldWidget extends StatelessWidget {
         children: [
           CountryCodePicker(
             onChanged: onChanged,
-            initialSelection: initialSelection ?? 'EG',
-            favorite: const ['+20', 'EG'],
+            initialSelection: initialSelection ?? '',
+            favorite: const ['+20', 'EG', '+966', 'SA'],
             showCountryOnly: false,
             showOnlyCountryWhenClosed: false,
             alignLeft: false,

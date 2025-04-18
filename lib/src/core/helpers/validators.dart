@@ -5,9 +5,9 @@ abstract class AppValidators {
   static String? phoneValidator(String? value) {
     if (value == null || value.isEmpty) {
       return 'phone_empty'.tr();
-    } else if (value.length > 15) {
+    } else if (value.length > 17) {
       return "phone_invalid".tr();
-    } else if (!value.isValidPhone) {
+    } else if (!value.isEgyptianPhone && !value.isSaudiPhone) {
       return 'phone_invalid'.tr();
     }
     return null;
