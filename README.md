@@ -2,6 +2,8 @@
 
 A Flutter project which allow user to insert any phone number with country code from ddl has many of country codes and the button will direct you to whatsapp that you can chating with this number if the number has a whatsapp else it will show you that the number doesn't exist.
 
+## Add telegram button with whatsapp button
+
 ## Some of app Screen shots
 
 <p align="center">
